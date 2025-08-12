@@ -1,0 +1,17 @@
+{
+  "name": "obsidian-bible-inserter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+  "dev": "esbuild src/main.ts --bundle --outfile=main.js --format=cjs --platform=node --external:obsidian --sourcemap && node scripts/copy-wasm.cjs",
+  "build": "esbuild src/main.ts --bundle --outfile=main.js --format=cjs --platform=node --external:obsidian --minify && node scripts/copy-wasm.cjs",
+  "watch": "npm run dev -- --watch"
+  },
+  "devDependencies": {
+    "esbuild": "^0.23.0",
+    "typescript": "^5.4.0"
+  },
+  "dependencies": {
+    "sql.js": "^1.10.2"
+  }
+}

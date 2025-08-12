@@ -1,0 +1,10 @@
+{
+  "id": "bible-text-inserter",
+  "name": "Bible Text Inserter",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Insert Bible text from references like '1 Mos 1:1-4' into callouts with links to chapters.",
+  "author": "David Fredin Silverkors",
+  "authorUrl": "https://davidsilverkors.se",
+  "isDesktopOnly": false
+}

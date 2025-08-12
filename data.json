@@ -1,0 +1,9 @@
+{
+  "sourceMode": "markdown",
+  "sqlitePath": "/Bibeln/Bibel2000.db",
+  "markdownRoot": "/Bibeln",
+  "calloutType": "[!bible]+",
+  "showVerseNumbers": false,
+  "lineBreakPerVerse": false,
+  "debug": true
+}
